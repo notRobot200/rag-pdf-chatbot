@@ -18,6 +18,10 @@ chat_with_pdftranscript is a smart tool that helps you interact with PDF transcr
 
 This project leverages gemma2-9b-it, a powerful model used for processing and analyzing text-based transcripts.
 
+## 🔧 Deployment:
+
+This application is deployed on Streamlit, a Python-based framework for building interactive web applications.
+
 ## 📝 License:
 
 This project is licensed under the Apache License.
