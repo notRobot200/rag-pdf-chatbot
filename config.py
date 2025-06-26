@@ -16,7 +16,8 @@ DEFAULT_DOCS_DIR = "docs"
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
 # LLM Configuration
-LLM_MODEL = "meta-llama/Llama-2-7b-chat-hf"
+# LLM_MODEL = "meta-llama/Llama-2-7b-chat-hf"
+LLM_MODEL = "mistralai/Mistral-7B-Instruct-v0.1"
 LLM_TEMPERATURE = 0
 LLM_MAX_TOKENS = 2000
 LLM_TOP_P = 0.9
