@@ -2,7 +2,7 @@ import logging
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from typing import List, Optional
-from langchain.docstore.document import Document
+from langchain_core.documents import Document
 import magic
 import os
 
