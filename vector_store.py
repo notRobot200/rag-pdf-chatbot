@@ -6,7 +6,7 @@ import hashlib
 import json
 import os
 from typing import List, Dict
-from langchain.docstore.document import Document
+from langchain_core.documents import Document
 import datetime
 
 
