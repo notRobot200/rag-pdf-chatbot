@@ -1,8 +1,8 @@
 import logging
 from langchain_community.document_loaders import PyPDFLoader
-from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain.text_splitters import RecursiveCharacterTextSplitter
 from typing import List, Optional
-from langchain_core.documents import Document
+from langchain.docstore.document import Document
 import magic
 import os
 
